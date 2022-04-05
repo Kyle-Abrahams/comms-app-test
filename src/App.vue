@@ -115,7 +115,12 @@ h1 {
   font-size: 3rem;
 }
 
-.email-input {
-  height: 18rem;
+.input-field {
+  width: 400px;
+  padding: 10px;
+}
+
+span {
+  margin-bottom: 1.3rem;
 }
 </style>
