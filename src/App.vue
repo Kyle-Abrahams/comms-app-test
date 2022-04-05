@@ -66,7 +66,7 @@
       <InputText id="username" type='text' />
       <label for="username">Username</label>
     </span>
-    <button @click="saveData()">Test Button</button>
+    <button @click="loadData()">Test Button</button>
   </div>
   </div>
 </template>
@@ -100,7 +100,7 @@ export default {
           this.obj.sms_body = jsonFileData.sms_body
           this.obj.email_body = jsonFileData.email_body
           this.obj.sql_body = jsonFileData.sql_statement
-        },
+        }
         
     },
 }
